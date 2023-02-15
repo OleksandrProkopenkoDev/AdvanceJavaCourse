@@ -10,7 +10,7 @@ public class GenericDemo {
 		System.out.println(sObject.getObject());
 		
 		DualGenericHolder<String, Integer> obj = 
-				new DualGenericHolder("Simple code", 10);
+				new DualGenericHolder<String, Integer>("Simple code", 10);
 		obj.display();
 	}
 
